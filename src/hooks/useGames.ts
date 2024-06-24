@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react'
 import apiClient from '../services/api-client'
 
-type Game = {
+export type Game = {
   id: number
   name: string
+  background_image: string
 }
 
 type FetchGamesResponse = {
