@@ -1,7 +1,12 @@
 import { useQuery } from '@tanstack/react-query'
 import platforms from '../data/platforms'
 import apiClient, { type FetchResponse } from '../services/api-client'
-import { type Platform } from './useGames'
+
+export type Platform = {
+  id: number
+  name: string
+  slug: string
+}
 
 const usePlatforms = () =>
   useQuery({
