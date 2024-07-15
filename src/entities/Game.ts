@@ -1,8 +1,8 @@
-import { type Genre } from './Genre'
-import { type Platform } from './Platform'
-import { type Publisher } from './Publisher'
+import type Genre from './Genre'
+import type Platform from './Platform'
+import type Publisher from './Publisher'
 
-export type Game = {
+type Game = {
   id: number
   name: string
   slug: string
@@ -14,3 +14,5 @@ export type Game = {
   metacritic: number
   rating_top: number
 }
+
+export default Game

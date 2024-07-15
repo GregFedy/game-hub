@@ -1,4 +1,4 @@
-export type Trailer = {
+type Trailer = {
   id: number
   name: string
   preview: string
@@ -7,3 +7,5 @@ export type Trailer = {
     max: string
   }
 }
+
+export default Trailer
