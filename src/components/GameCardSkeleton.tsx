@@ -10,4 +10,5 @@ const GameCardSkeleton = () => {
     </Card>
   )
 }
+
 export default GameCardSkeleton
